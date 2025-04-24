@@ -13,7 +13,7 @@ if __name__ == "__main__":
         database="sd3",
         port=3307
     )
-    mongo = MongoDBConnection("mongodb://localhost:27017/", "db3")
+    mongo = MongoDBConnection("mongodb://localhost:31017/", "sd3")
 
     try:
         mysql_conn = mysql.connect()
